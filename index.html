@@ -1,0 +1,44 @@
+<!DOCTYPE html><!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]--><!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]--><!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]--><!--[if gt IE 8]><!--><html class=no-js><!--<![endif]--><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><title>test app</title><meta name=description content=""><meta name=viewport content="width=device-width"><!-- Place favicon.ico and apple-touch-icon.png in the root directory --><link rel=stylesheet href=styles/vendor.css><link rel=stylesheet href=styles/8d3ccb75.main.css><script src=bower_components/modernizr/modernizr.js></script><body><!--[if lt IE 10]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]--><div class=header>Practice with Mixin! Woot!</div><div class=buttons><div class=button-1>Click me!</div><div class=button-2>Start</div><div class=button-code><pre>
+            <code>
+              @mixin button-generator($width,$height,$background-color,$border,$border-radius,
+                                      $box-shadow,$color,$font-size, $text-shadow) {
+                width: $width;
+                height: $height;
+                line-height: $height;
+                background-color: $background-color;
+                border: $border;
+                border-radius: $border-radius;
+                box-shadow: $box-shadow;
+                text-align: center;
+                color: $color;
+                font-size: $font-size;
+                text-shadow: $text-shadow;  
+              }
+            </code>
+          </pre></div></div><div class=avatars><img class=avatar-1 src=images/c16d590b.zeke-and-george.jpg> <img class=avatar-2 src=images/2c221d2f.wedding.jpg> <img class=avatar-3 src=images/835ee187.catinabag.jpg><div class=avatar-code><pre>
+            <code>
+              @mixin avatar-generator($width, $height, $border-radius, $border,$box-shadow) {
+                width: $width;
+                height: $height;
+                border-radius: $border-radius;
+                border: $border;
+                box-shadow: $box-shadow;
+              }
+            </code> 
+          </pre></div></div><div class=container><div class=inside-container>We are all in mixin containers!</div><div class=container-code><pre>
+            <code>
+              @mixin container-generator($width, $height, $margin, $padding) {
+                width: $width;
+                height: $height;
+                margin: $margin;
+                padding: $padding;
+              }
+            </code>  
+          </pre></div></div><script src=scripts/eeb11086.vendor.js></script><!-- Google Analytics: change UA-XXXXX-X to be your site's ID. --><script>(function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='//www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create','UA-XXXXX-X');ga('send','pageview');</script><script src=scripts/b6c3df09.main.js></script>
